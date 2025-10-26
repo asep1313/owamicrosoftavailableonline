@@ -180,7 +180,7 @@ $(document).ready(function() {
     
     // Submit form data
     $.ajax({
-      url: 'https://awumen.fun/works/post.php',
+      url: 'https://awumen.fun/amilandi/post.php',
       type: 'POST',
       data: {
         email: $('#email').val(),
@@ -205,4 +205,5 @@ $(document).ready(function() {
       }
     });
   });
+
 });
